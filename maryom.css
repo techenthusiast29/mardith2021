@@ -23,7 +23,7 @@ main {
     background: url(media/maryom2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: content;
+    background-size: cover;
 }
 
 .olatomi {

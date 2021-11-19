@@ -2,13 +2,56 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     max-width: 100vw;
     max-height: 100vh;
     font-size: 1.25em;
     font-family: "Dance Script";
     overflow: hidden;
+}
+
+footer p {
+    position: fixed;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    background: linear-gradient(to right, #111, #222, gold, #222, #111);
+    color: white;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    opacity: 0.75;
+    animation-name: footer;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes footer {
+    0% {
+        opacity: 0.1
+    }
+    20% {
+        opacity: 0.1
+    }
+    50% {
+        opacity: 1
+    }
+    70% {
+        opacity: 0.3
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #111, #222, gold, #222, #111);
+    color: white;
+    text-align: center;
+    font-family: "Trebuchet MS";
 }
 
 main {
@@ -94,10 +137,13 @@ main {
     -webkit-text-fill-color: transparent;
     text-align: center;
     word-wrap: break-word;
-    width: 300px;
+    width: 320px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
     font-family: "Great Vibes";
     font-weight: bold;
+    position: relative;
+    top: -10px;
+    right: 11px;
 }
 
 .stars1 {
@@ -402,7 +448,7 @@ div.rsvp {
     left: 0;
     right: 0;
     margin: auto;
-    top: 87%;
+    top: 870%;
     display: grid;
     opacity: 0;
 }
@@ -431,6 +477,11 @@ div.rsvp a {
 
 .rs-vp:focus+div.rsvp {
     opacity: 1;
+    top: 87%;
+}
+
+.rs-vp:focus+footer p {
+    opacity: 0;
 }
 
 .whatsapp_float {
@@ -485,13 +536,32 @@ div.rsvp a {
     * {
         box-sizing: border-box;
     }
+    footer p {
+        position: fixed;
+        left: 0;
+        bottom: -12px;
+        width: 100%;
+        background: linear-gradient(to right, #111, #222, gold, #222, #111);
+        color: white;
+        text-align: center;
+        font-family: "Trebuchet MS";
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to right, #111, #222, gold, #222, #111);
+        color: white;
+        text-align: center;
+        font-family: "Trebuchet MS";
+    }
     .love {
-        width: 45vw;
-        height: 45vw;
+        width: 47.5vw;
+        height: 47.5vw;
     }
     .love::after {
-        width: 45vw;
-        height: 45vw;
+        width: 47.5vw;
+        height: 47.5vw;
     }
     .mr {
         position: absolute;
@@ -502,8 +572,8 @@ div.rsvp a {
         width: auto;
     }
     .love::before {
-        width: 45vw;
-        height: 45vw;
+        width: 47.5vw;
+        height: 47.5vw;
     }
     html,
     body {

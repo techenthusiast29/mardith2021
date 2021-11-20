@@ -13,11 +13,10 @@ body {
 footer p {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 5%;
     width: 100%;
     background: linear-gradient(to right, #111, #222, gold, #222, #111);
     color: white;
-    text-align: center;
     font-family: "Trebuchet MS";
     font-size: 18px;
     opacity: 0.75;

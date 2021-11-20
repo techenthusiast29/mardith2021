@@ -28,10 +28,7 @@ body {
 
 @keyframes footer {
     0% {
-        opacity: 0.1
-    }
-    20% {
-        opacity: 0.1
+        opacity: 1
     }
     50% {
         opacity: 1
@@ -40,14 +37,16 @@ body {
         opacity: 0.3
     }
     100% {
-        opacity: 0
+        opacity: 1
     }
 }
 
 .footer {
     position: absolute;
+    left: 0;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    width: 97%;
     background: linear-gradient(to right, #111, #222, gold, #222, #111);
     color: white;
     text-align: center;
@@ -449,7 +448,7 @@ div.rsvp {
     left: 0;
     right: 0;
     margin: auto;
-    top: 870%;
+    top: 87%;
     display: grid;
     opacity: 0;
 }
@@ -479,10 +478,6 @@ div.rsvp a {
 .rs-vp:focus+div.rsvp {
     opacity: 1;
     top: 87%;
-}
-
-.rs-vp:focus+footer p {
-    opacity: 0;
 }
 
 .whatsapp_float {

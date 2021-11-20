@@ -12,8 +12,8 @@ body {
 
 .footer p {
     position: fixed;
-    top: 80%;
-    width: 100%;
+    top: 90%;
+    width: 100vw;
     background: linear-gradient(to right, #111, #222, gold, #222, #111);
     color: white;
     font-family: "Trebuchet MS";
@@ -44,7 +44,7 @@ body {
 
 .footer {
     position: fixed;
-    top: 80%;
+    top: 90%;
     width: 100%;
     background: linear-gradient(to right, #111, #222, gold, #222, #111);
     color: white;
@@ -536,7 +536,7 @@ div.rsvp a {
     }
     .footer p {
         position: fixed;
-        width: 100%;
+        width: 100vw;
         background: linear-gradient(to right, #111, #222, gold, #222, #111);
         color: white;
         text-align: center;
@@ -544,7 +544,7 @@ div.rsvp a {
     }
     .footer {
         position: fixed;
-        width: 100%;
+        width: 100vw;
         background: linear-gradient(to right, #111, #222, gold, #222, #111);
         color: white;
         text-align: center;

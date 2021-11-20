@@ -7,8 +7,7 @@ body {
     max-height: 100vh;
     font-size: 1.25em;
     font-family: "Dance Script";
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 footer p {

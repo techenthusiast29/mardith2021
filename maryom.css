@@ -10,7 +10,7 @@ body {
     overflow: hidden;
 }
 
-footer p {
+.footer p {
     position: fixed;
     top: 80%;
     width: 100%;
@@ -42,7 +42,7 @@ footer p {
     }
 }
 
-footer {
+.footer {
     position: fixed;
     top: 80%;
     width: 100%;
@@ -534,7 +534,7 @@ div.rsvp a {
     * {
         box-sizing: border-box;
     }
-    footer p {
+    .footer p {
         position: fixed;
         width: 100%;
         background: linear-gradient(to right, #111, #222, gold, #222, #111);
@@ -542,7 +542,7 @@ div.rsvp a {
         text-align: center;
         font-family: "Trebuchet MS";
     }
-    footer {
+    .footer {
         position: fixed;
         width: 100%;
         background: linear-gradient(to right, #111, #222, gold, #222, #111);
